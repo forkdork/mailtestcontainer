@@ -350,31 +350,29 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\andrew.witherley\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/vatroslavst/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\repos\\test\\MailContainerTest\\MailContainerTest\\MailContainerTest\\MailContainerTest.csproj",
+      "projectUniqueName": "/Users/vatroslavst/Desktop/tasks/mailcontainer/1/MailContainerTest/MailContainerTest.csproj",
       "projectName": "MailContainerTest",
-      "projectPath": "C:\\repos\\test\\MailContainerTest\\MailContainerTest\\MailContainerTest\\MailContainerTest.csproj",
-      "packagesPath": "C:\\Users\\andrew.witherley\\.nuget\\packages\\",
-      "outputPath": "C:\\repos\\test\\MailContainerTest\\MailContainerTest\\MailContainerTest\\obj\\",
+      "projectPath": "/Users/vatroslavst/Desktop/tasks/mailcontainer/1/MailContainerTest/MailContainerTest.csproj",
+      "packagesPath": "/Users/vatroslavst/.nuget/packages/",
+      "outputPath": "/Users/vatroslavst/Desktop/tasks/mailcontainer/1/MailContainerTest/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\andrew.witherley\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/vatroslavst/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.telerik.com/nuget": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
@@ -403,7 +401,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -412,7 +411,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
       }
     }
   }
