@@ -25,7 +25,7 @@ public class MailContainerDataStoreTests
         var result = service?.GetMailContainer(string.Empty);
         Assert.AreEqual(typeof(BackupMailContainer), result?.GetType());
     }
-    
+
 
     [Test]
     public void GetDefaultMailContainerTest()

@@ -26,8 +26,8 @@ public class MailTransferService : IMailTransferService
 
         return result;
     }
-    
 
+// not goona refactor into service. the whole method is stupid
     private MakeMailTransferResult MakeMailTransferResult(MakeMailTransferRequest request,
         MailContainer mailContainerDataStore)
     {

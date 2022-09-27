@@ -1,17 +1,18 @@
-### Mail Container Test 
+### Mail Container Test
 
-The code for this exercise has been developed to manage the transfer of mail items from one container to another for processing.
+The code for this exercise has been developed to manage the transfer of mail items from one container to another for
+processing.
 
 #### Process for transferring mail
 
 - Lookup the container the mail is being transferred from.
 - Check the containers are in a valid state for the transfer to take place.
-- Reduce the container capacity on the source container and increase the destination container capacity by the same amount.
+- Reduce the container capacity on the source container and increase the destination container capacity by the same
+  amount.
 
 #### Restrictions
 
 - A container can only hold one type of mail.
-
 
 #### Assumptions
 
@@ -19,7 +20,8 @@ The code for this exercise has been developed to manage the transfer of mail ite
 
 ### The exercise brief
 
-The exercise is to take the code in the solution and refactor it into a more suitable approach with the following things in mind:
+The exercise is to take the code in the solution and refactor it into a more suitable approach with the following things
+in mind:
 
 - Testability
 - Readability
@@ -30,11 +32,14 @@ You should not change the method signature of the MakeMailTransfer method.
 
 You should add suitable tests into the MailContainerTest.Test project.
 
-There are no additional constraints, use the packages and approach you feel appropriate, aim to spend no more than 2 hours. Please update the readme with specific comments on any areas that are unfinished and what you would cover given more time.
+There are no additional constraints, use the packages and approach you feel appropriate, aim to spend no more than 2
+hours. Please update the readme with specific comments on any areas that are unfinished and what you would cover given
+more time.
 
 ## Changes
 
 Added strategy pattern to choose proper MailContainerDataStore.
-To use proper strategy we define in appconfig proper one. Currently supported are Default and Backup. 
-To make it usage in your application you should use Option pattern and to make it changable in runtime use IOptionMonitor.
+To use proper strategy we define in appconfig proper one. Currently supported are Default and Backup.
+To make it usage in your application you should use Option pattern and to make it changable in runtime use
+IOptionMonitor.
 For details take a look at MailCointanterStrategyTest
